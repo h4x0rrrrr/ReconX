@@ -1,0 +1,56 @@
+[
+  {
+    "name": "GitHub",
+    "url_format": "https://github.com/{username}",
+    "exists_status": 200
+  },
+  {
+    "name": "GitLab",
+    "url_format": "https://gitlab.com/{username}",
+    "exists_status": 200
+  },
+  {
+    "name": "Reddit",
+    "url_format": "https://www.reddit.com/user/{username}",
+    "exists_status": 200,
+    "not_found_marker": "Sorry, nobody on Reddit goes by that name"
+  },
+  {
+    "name": "Twitter/X (via Nitter)",
+    "url_format": "https://nitter.net/{username}",
+    "exists_status": 200,
+    "not_found_marker": "User not found"
+  },
+  {
+    "name": "Instagram",
+    "url_format": "https://www.instagram.com/{username}/",
+    "exists_status": 200
+  },
+  {
+    "name": "Telegram",
+    "url_format": "https://t.me/{username}",
+    "exists_status": 200,
+    "not_found_marker": "If you have Telegram"
+  },
+  {
+    "name": "Steam",
+    "url_format": "https://steamcommunity.com/id/{username}",
+    "exists_status": 200,
+    "not_found_marker": "The specified profile could not be found"
+  },
+  {
+    "name": "Pinterest",
+    "url_format": "https://www.pinterest.com/{username}/",
+    "exists_status": 200
+  },
+  {
+    "name": "Twitch",
+    "url_format": "https://www.twitch.tv/{username}",
+    "exists_status": 200
+  },
+  {
+    "name": "Kik",
+    "url_format": "https://kik.me/{username}",
+    "exists_status": 200
+  }
+]
