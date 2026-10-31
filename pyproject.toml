@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reconx"
+version = "0.3.3"
+description = "Plugin-based, concurrent, passive-first OSINT and red-team reconnaissance CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "httpx>=0.27.0",
+    "dnspython>=2.6.0",
+    "mmh3>=4.1.0",
+    "websockets>=12.0",
+    "socksio>=1.0.0",
+]
+
+[project.scripts]
+reconx = "reconx.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["reconx*"]
