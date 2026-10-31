@@ -1,4 +1,4 @@
-# ReconX 0.3.3
+# ReconX 
 
 **A passive-first, plugin-based OSINT and red-team reconnaissance CLI** for authorized security engagements. ReconX focuses on high-fidelity findings, clear provenance, concurrent collection, conservative independent verification, OPSEC proxy routing, and unified multi-format reports—not noisy, unverified dumps.
 
